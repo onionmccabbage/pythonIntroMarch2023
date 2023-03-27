@@ -9,14 +9,14 @@ class Person: # brackets are onptional
     def __init__(self, n, a, e): # init is not a constructor, but is very like one
         # double-underscore will 'mangle' the parameter name
         self.__name = n # we use our mutator method
-        self.age   = a  # validate age to be a positive integer or 42
+        self.__age   = a  # validate age to be a positive integer or 42
         self.email = e
     # we need a 'setter' method to validate the name
     def setName(self, new_name):
         if type(new_name) == str and new_name !='':
-            self.name=new_name
+            self.__name=new_name
         else: # we could raise an exeption
-            self.name  ='default'
+            self.__name  ='default'
     # we also provide a 'getter' method
     def getName(self):
         return self.__name # we return the mangled property
