@@ -11,17 +11,17 @@ Toby Dussek
 
 
 Monday
-- Welcome
+> Welcome
 - where to write code: immediate and module
-  Pycharm or VSCode or ...
+> Pycharm or VSCode or ...
 - overview of Python 3 (and Python 2)
 - architecture, structure, and code best practice
 - print() and input()
-- maths operators and data types
+> maths operators and data types
 - the if statement for conditional logic
 - while loop, break and pass
-- indentation
-- immutable strings
+> indentation
+> immutable strings
 - print formatting
 - iterable collections
 - memory efficiency
