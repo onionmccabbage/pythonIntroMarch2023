@@ -5,9 +5,10 @@ Toby Dussek
 
 9:30 start
 10:45 coffee
-12:00 lunch
-2:45 tea
+12:30 lunch
+3:00 tea
 4:30 end
+
 
 Monday
 - Welcome
@@ -80,6 +81,11 @@ Wednesday
   https://pynative.com/python-exercises-with-solutions/
   the next courses: advanced python then further advanced python
 - end of course feedback
+
+all code will be here: 
+https://github.com/onionmccabbage/pythonIntroMarch2023
+The recordings will be provided here: 
+https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python-March23/site/index.html
 
 
 
