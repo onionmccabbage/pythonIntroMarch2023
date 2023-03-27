@@ -20,6 +20,13 @@ class Person: # brackets are onptional
     # we also provide a 'getter' method
     def getName(self):
         return self.__name # we return the mangled property
+    def setAge(self, new_age):
+        if type(new_age)==int and new_age >0:
+            self.__age = new_age
+        else:
+            self.__age = 42
+    def getAge(self):
+        return self.__age
     # we can make our class printable by overriding the built-in __str__ method
     def __str__(self):
         # inside the clas we can access mangled properties
@@ -32,7 +39,7 @@ if __name__ == '__main__':
     doh   = Person('', True, {}) # no validation, so this is fine
     # without some work, we can mutate the properties of our class instances
     ethel.setName(True)
-    print(f'{ethel.getName()} is {ethel.age}')
+    print(f'{ethel.getName()} is {ethel.getAge()}')
     print(f'{doh.getName()}') # default
 
     # we can print a class - this will use the __str__ method
