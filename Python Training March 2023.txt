@@ -1,0 +1,89 @@
+Python Training March 2023
+==========================
+
+Toby Dussek 
+
+9:30 start
+10:45 coffee
+12:00 lunch
+2:45 tea
+4:30 end
+
+Monday
+- Welcome
+- where to write code: immediate and module
+  Pycharm or VSCode or ...
+- overview of Python 3 (and Python 2)
+- architecture, structure, and code best practice
+- print() and input()
+- maths operators and data types
+- the if statement for conditional logic
+- while loop, break and pass
+- indentation
+- immutable strings
+- print formatting
+- iterable collections
+- memory efficiency
+- identifiers
+- boolean True and False
+- type and type conversion, also isinstance() and isnumeric()
+- validate input before casting it
+- string manipulation
+- Python indent syntax
+- Lists, Tuples and nested collections
+- after lunch review exercise
+- dictionaries (non-numeric indexed iterable collections)
+- import, pip, libraries and modules
+- very big numeric values
+- looping with 'for'
+- range
+
+Tuesday
+- quick review of where we got to
+- comprehension
+- other kinds of Python
+- functions: *args, **kwargs  
+- to add libraries to python:
+  - python -m ensurepip
+  - python –m pip install requests (or any other library you need)
+- requests
+- overview of testing
+- strings with triple quotes
+- architecture: modules __init__.py and __name__ == '__main__'
+- exception handling
+- review exercise
+- importing modules
+- File input and output
+- read and write binary files (bytes)
+
+Wednesday
+- brief review so far
+- functions live in classes, which live in modules which live in packages
+  https://docs.python.org/3/howto/pyporting.html
+- PEP8 style guide
+- global and local scope 
+- string formatting syntax
+- data modelling structures: use built in structures until they do not suit the purpose (then use classes)
+- Objects and Classes (OOP)
+- get/set as property decorators @property
+- name mangling (__)
+- properties, methods, __str__
+- intrinsic attributes: __doc__ etc.
+- documentation strings (docstring) for classes
+- special operators and overriding
+- inheritance
+- composition, static and class methods
+- review exercise
+- how to format with certain dp
+- debug tools
+- where to go from here:
+  https://pynative.com/python-exercises-with-solutions/
+  the next courses: advanced python then further advanced python
+- end of course feedback
+
+
+
+Links
+- Python official site https://python.org
+- PEP8 style guide https://www.python.org/dev/peps/pep-0008/
+- online Python interpreter https://repl.it/languages/Python3
