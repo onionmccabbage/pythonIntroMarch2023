@@ -1,0 +1,22 @@
+Review Exercise until 2:30
+===============
+Ask the user to enter a guess until they get it right (integer between 0 and 100)
+  from random import randint # this is a good way to make a random number
+  n = randint(0,100)
+
+If it's too high or too low tell them
+When they get it right the game ends
+(NB validate that an integer was entered) 
+
+Optional
+--------
+tell them how many guesses they took
+entering -1 quits the game (tell them the answer)
+entering -2 offers hints: is it even, is it odd, is it a square or prime number?
+maybe ask the user for the range (i.e. the difficulty)
+
+Recomended
+----------
+- use functions
+- use booleans to check if the game is over
+- use if __name__ == '__main__':
