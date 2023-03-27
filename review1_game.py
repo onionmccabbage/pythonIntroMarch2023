@@ -1,6 +1,7 @@
 # Python review exercise: guess the random number between 0-100
 from random import randint # we need a way to make random numbers
 
+
 def makeSquares():
     squares = []
     for i in range(0, 11):
