@@ -9,7 +9,7 @@ class Person: # brackets are onptional
     def __init__(self, n, a, e): # init is not a constructor, but is very like one
         # double-underscore will 'mangle' the parameter name
         self.__name = n # we use our mutator method
-        self.age   = a
+        self.age   = a  # validate age to be a positive integer or 42
         self.email = e
     # we need a 'setter' method to validate the name
     def setName(self, new_name):
@@ -20,6 +20,10 @@ class Person: # brackets are onptional
     # we also provide a 'getter' method
     def getName(self):
         return self.__name # we return the mangled property
+    # we can make our class printable by overriding the built-in __str__ method
+    def __str__(self):
+        # inside the clas we can access mangled properties
+        return f'{self.__name} is aged {self.age} contactable at {self.email}'
 
 if __name__ == '__main__':
     # we can create intances of our class
@@ -30,3 +34,6 @@ if __name__ == '__main__':
     ethel.setName(True)
     print(f'{ethel.getName()} is {ethel.age}')
     print(f'{doh.getName()}') # default
+
+    # we can print a class - this will use the __str__ method
+    print( ethel )
