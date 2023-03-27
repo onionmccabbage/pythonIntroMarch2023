@@ -1,5 +1,6 @@
 # here is a Python comment
 
+
 # sinple data types
 a = 7   # integer
 b = 3.2 # float
