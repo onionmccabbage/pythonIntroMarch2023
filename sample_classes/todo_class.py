@@ -22,6 +22,8 @@ class ToDo:
     # we can declare the get/set methods as a property
     title = property(getTitle, setTitle)
     id    = property(getId,    setId )
+    def __str__(self):
+        return f'Todo id {self.id} title {self.title}'
 
 if __name__ == '__main__':
     '''e can instantiate our class'''

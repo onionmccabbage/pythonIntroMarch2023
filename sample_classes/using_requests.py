@@ -1,5 +1,8 @@
 # we can use the requests library to access external data from an API
 import requests # remember - we may need to 'pip install requests'
+# we need to import our classes
+from photo_class import Photo
+from todo_class  import ToDo
 
 def getData(category, id):
     '''get data using the category and id provided'''
@@ -22,3 +25,7 @@ if __name__ == '__main__':
     # we can get photo data
     photo_result = getData('photos', 1234)
     print(photo_result)
+    # we can populate our classes from the retrieved data
+    todo1  = ToDo(result['title'], result['id'])
+    photo1 = Photo(photo_result['url'], photo_result['id'])
+    print(todo1, photo1) # use the __str__

@@ -23,7 +23,11 @@ class Photo:
             self.__id = new_id
         else:
             self.__id = 999
+    # we can override the built in '__str__' method with our own print preference
+    def __str__(self):
+        return f'Photo id {self.id} url: {self.url}'
 
 if __name__ == '__main__':
     p1 = Photo('https://placehold.co/64', 1)
     print(p1.url, p1.id)
+    print(p1) # this will call the __str__ method
