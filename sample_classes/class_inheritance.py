@@ -39,4 +39,11 @@ if __name__ == '__main__':
     c1 = C('Ermintrude')
     d1 = D('Beatrice', True)
     # see if it breaks...
-    c1 = C(333) # should raise an exception
+    try:
+        c2 = C(333) # should raise an exception
+    except Exception as err:
+        print(err)
+    try:
+        d2 = D('Freda', []) # should raise an exception
+    except Exception as err:
+        print(err)
