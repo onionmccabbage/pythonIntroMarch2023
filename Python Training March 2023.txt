@@ -12,50 +12,55 @@ Toby Dussek
 
 Monday
 > Welcome
-- where to write code: immediate and module
+> where to write code: immediate and module
 > Pycharm or VSCode or ...
-- overview of Python 3 (and Python 2)
+> overview of Python 3 (and Python 2)
 - architecture, structure, and code best practice
-- print() and input()
+> print( , end=', ') and input()
 > maths operators and data types
-- the if statement for conditional logic
-- while loop, break and pass
+> the if statement for conditional logic
+> while loop, break and pass
 > indentation
 > immutable strings
-- print formatting
-- iterable collections
+> print formatting
+> iterable collections
 - memory efficiency
-- identifiers
-- boolean True and False
+> identifiers
+> boolean True and False
 - type and type conversion, also isinstance() and isnumeric()
-- validate input before casting it
-- string manipulation
-- Python indent syntax
-- Lists, Tuples and nested collections
-- after lunch review exercise
-- dictionaries (non-numeric indexed iterable collections)
-- import, pip, libraries and modules
-- very big numeric values
-- looping with 'for'
-- range
+> validate input before casting it
+> string manipulation
+> Python indent syntax
+> Lists, Tuples and nested collections
+> after lunch review exercise
+> dictionaries (non-numeric indexed iterable collections)
+> very big numeric values
+> looping with 'for'
+> range
+> generator (efficient since values do not persist in memory)
+> classes
 
 Tuesday
 - quick review of where we got to
-- comprehension
-- other kinds of Python
-- functions: *args, **kwargs  
+- import, pip, libraries and modules
 - to add libraries to python:
   - python -m ensurepip
   - python –m pip install requests (or any other library you need)
+  - python3 -m ensurepip
+- revisit classes
+- comprehension
+- other kinds of Python
+- functions: *args, **kwargs  
 - requests
 - overview of testing
 - strings with triple quotes
 - architecture: modules __init__.py and __name__ == '__main__'
-- exception handling
+> exception handling
 - review exercise
 - importing modules
 - File input and output
 - read and write binary files (bytes)
+- share the links to 'course documentation'
 
 Wednesday
 - brief review so far
@@ -86,7 +91,6 @@ all code will be here:
 https://github.com/onionmccabbage/pythonIntroMarch2023
 The recordings will be provided here: 
 https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python-March23/site/index.html
-
 
 
 Links

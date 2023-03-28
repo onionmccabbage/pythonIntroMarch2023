@@ -9,8 +9,8 @@ class Person: # brackets are onptional
     def __init__(self, n, a, e): # init is not a constructor, but is very like one
         # double-underscore will 'mangle' the parameter name
         self.__name = n # we use our mutator method
-        self.__age   = a  # validate age to be a positive integer or 42
-        self.email = e
+        self.__age  = a # validate age to be a positive integer or 42
+        self.email  = e
     # we need a 'setter' method to validate the name
     def setName(self, new_name):
         if type(new_name) == str and new_name !='':
