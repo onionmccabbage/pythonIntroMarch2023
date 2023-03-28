@@ -14,7 +14,7 @@ class C(object): # explicitly inherit from 'object'
         return self.__name
     @name.setter
     def name(self, new_name):
-        if new_name.isinstance('str') and new_name != '':
+        if isinstance(new_name, str) and new_name != '':
             self.__name = new_name
         else:
             raise Exception('Name must be a non-empty string')
@@ -30,7 +30,7 @@ class D(C): # here the 'D' class will inherit everything from the 'C' class
         return self.__completed
     @completed.setter
     def completed(self, new_completed):
-        if new_completed.isinstance(bool):
+        if isinstance(new_completed, bool):
             self.__completed = new_completed
         else:
             raise Exception('Completed must be boolean')
