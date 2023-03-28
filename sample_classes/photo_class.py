@@ -1,8 +1,9 @@
 class Photo:
     '''URL must be a non-empty string'''
     ''' we also need an id property, which must be a positive integer'''
-    def __init__(self, url):
+    def __init__(self, url, id):
         self.__url = url
+        self.__id  = id
     # this time we will use 'decorator syntax' for the property get/set methods
     @property # here we have a 'getter' for the URL
     def url(self):
@@ -13,7 +14,17 @@ class Photo:
             self.__url = new_url
         else:
             self.__url = 'na'
+    @property
+    def id(self):
+        return self.__id
+    @id.setter
+    def id(self, new_id):
+        if type(new_id)==int and new_id > 0:
+            self.__id = new_id
+        else:
+            self.__id = 999
+
 
 if __name__ == '__main__':
-    p1 = Photo('https://placehold.co/64')
-    print(p1.url)
+    p1 = Photo('https://placehold.co/64', 1)
+    print(p1.url, p1.id)
