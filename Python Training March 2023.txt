@@ -50,7 +50,8 @@ Tuesday
 > requests
 - comprehension
 - other kinds of Python
-- functions: *args, **kwargs  
+  Python is written in C (often refered to as cpython)
+> functions: *args, **kwargs  
 - strings with triple quotes
 - architecture: modules __init__.py and __name__ == '__main__'
 > exception handling
@@ -59,7 +60,7 @@ Tuesday
 > importing modules
 - File input and output
 - read and write binary files (bytes)
-- share the links to 'course documentation'
+> share the links to 'course documentation'
 
 Wednesday
 - brief review so far
