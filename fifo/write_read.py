@@ -10,5 +10,6 @@ fin = open('easy.txt', 'rt') # 'rt' means read text
 # received = fin.read() # reads in from the file as a SINGLE text string
 # received = fin.readlines() # reads in from the file as a list of text strings
 received = fin.readline(5) # reads in from the file as the next line (or just n characters)
+fin.close()
 
 print(received)

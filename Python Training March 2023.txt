@@ -49,7 +49,7 @@ Tuesday
 > revisit classes
 > requests
 - comprehension
-- other kinds of Python
+> other kinds of Python
   Python is written in C (often refered to as cpython)
 > functions: *args, **kwargs  
 - strings with triple quotes
@@ -58,13 +58,13 @@ Tuesday
 > review exercise
   > show and tell
 > importing modules
-- File input and output
-- read and write binary files (bytes)
 > share the links to 'course documentation'
 
 Wednesday
 - brief review so far
 - list of useful libraries
+- File input and output: formal approach inc. logging
+- read and write binary files (bytes)
 - functions live in classes, which live in modules which live in packages
   https://docs.python.org/3/howto/pyporting.html
 - PEP8 style guide
