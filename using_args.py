@@ -4,7 +4,7 @@ def pow(a=2, b=3):
     return a**b
 
 # if we wish, we can collect together ALL the positional arguments of a function
-def posArgs( *args ): # *args wil collect all the posituional arguments into a tuple
+def posArgs( *args ): # *args wil collect all the positional arguments into a tuple
     print( args, type(args) ) # a tuple
     # we can use args in place of overloads
     if len(args)==0:

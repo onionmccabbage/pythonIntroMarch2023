@@ -6,9 +6,8 @@ Toby Dussek
 9:30 start
 11:00 coffee
 12:30 lunch
-3:00 tea
+3:00 tea break
 4:30 end
-
 
 Monday
 > Welcome
@@ -48,15 +47,15 @@ Tuesday
   - python –m pip install requests (or any other library you need)
   - python3 -m ensurepip
 > revisit classes
+> requests
 - comprehension
 - other kinds of Python
 - functions: *args, **kwargs  
-> requests
-- overview of testing
 - strings with triple quotes
 - architecture: modules __init__.py and __name__ == '__main__'
 > exception handling
-- review exercise
+> review exercise
+  > show and tell
 > importing modules
 - File input and output
 - read and write binary files (bytes)
@@ -64,10 +63,12 @@ Tuesday
 
 Wednesday
 - brief review so far
+- list of useful libraries
 - functions live in classes, which live in modules which live in packages
   https://docs.python.org/3/howto/pyporting.html
 - PEP8 style guide
 - global and local scope 
+- overview of testing
 - string formatting syntax
 - data modelling structures: use built in structures until they do not suit the purpose (then use classes)
 > Objects and Classes (OOP)
@@ -87,11 +88,15 @@ Wednesday
   the next courses: advanced python then further advanced python
 - end of course feedback
 
+Some really useful Python websites (free)
+- https://www.learnpython.org/
+- https://www.freecodecamp.org/news/the-python-handbook/
+- https://automatetheboringstuff.com/
+
 all code will be here: 
 https://github.com/onionmccabbage/pythonIntroMarch2023
 The recordings will be provided here: 
 https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python-March23/site/index.html
-
 
 Links
 - Python official site https://python.org
