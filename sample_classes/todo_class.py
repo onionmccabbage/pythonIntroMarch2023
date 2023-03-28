@@ -1,5 +1,6 @@
 class ToDo:
     ''' ToDo will have 'title' as a non-empty string property '''
+    ''' we also need an id property, which must be a positive integer'''
     def __init__(self, title):
         self.__title = title # mangle the property to avoid direct access
     # we can validate properies by writing setter and getter methods
