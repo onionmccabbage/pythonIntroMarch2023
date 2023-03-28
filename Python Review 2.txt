@@ -5,11 +5,12 @@ Use this to make a call to an API and show some results
 
 This is a chance to explore Python 
 - Alter these instructions to suit your thinking
-- Aim for good architecture (maybe use separate modules)
+- Aim for good architecture (maybe use separate modules, remember 'if __name__...')
 - Look online, talk to each other, ask me etc.
 There will be an opportunity to share your code at the end
 
 Details:
+--------
 Write a new module which asks the user to input a 'city'
 (remember to use input() which always returns a string)
 Validate the user input as follows:
@@ -20,6 +21,11 @@ After you ask the user for a city, build a URL something like this:
 
 Use the 'requests' library to make a 'get' call to this end-point API
 Show the user what was returned by printing a nicely formatted string, (e.g. description, temperature)
+NB for this JSON data, the description will be
+  response_dict['weather'][0]['description']
+and the temperature value will be
+  response_dict['main']['temp']
+(show other data if you wish)
 
 Optional
 ========
