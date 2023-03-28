@@ -1,0 +1,35 @@
+Python Review 2
+===============
+Ask the user for a city name
+Use this to make a call to an API and show some results
+
+This is a chance to explore Python 
+- Alter these instructions to suit your thinking
+- Aim for good architecture (maybe use separate modules)
+- Look online, talk to each other, ask me etc.
+There will be an opportunity to share your code at the end
+
+Details:
+Write a new module which asks the user to input a 'city'
+(remember to use input() which always returns a string)
+Validate the user input as follows:
+- The city must be a non empty string of at least three letter
+After you ask the user for a city, build a URL something like this: 
+  f'http://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1'
+  (inject the 'city' into the curly brackets)
+
+Use the 'requests' library to make a 'get' call to this end-point API
+Show the user what was returned by printing a nicely formatted string, (e.g. description, temperature)
+
+Optional
+========
+Write try-except blocks around some of your code (e.g. the api access)
+Write a 'Weather' class with get/set methods for 'city', 'description' and 'temperature'
+Populate this class from the returned data
+Override __str__ so your Weather class prints nicely
+We need to ensure the parameter is in the required form:
+Write a module containing a function called 'cleanup' which receives positional or keyword arguments (as you see fit)
+The cleanup function should ensure:
+- there is a value for the 'city' as a non-empty string containing three or more characters
+If city is missing or unacceptable, you should provide a sensible default
+Import and use your 'cleanup' function to sanitize the user-provided data
