@@ -24,7 +24,6 @@ class Photo:
         else:
             self.__id = 999
 
-
 if __name__ == '__main__':
     p1 = Photo('https://placehold.co/64', 1)
     print(p1.url, p1.id)

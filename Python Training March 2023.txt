@@ -4,7 +4,7 @@ Python Training March 2023
 Toby Dussek 
 
 9:30 start
-10:45 coffee
+11:00 coffee
 12:30 lunch
 3:00 tea
 4:30 end
@@ -41,13 +41,13 @@ Monday
 > classes
 
 Tuesday
-- quick review of where we got to
-- import, pip, libraries and modules
-- to add libraries to python:
+> quick review of where we got to
+> import, pip, libraries and modules
+> to add libraries to python:
   - python -m ensurepip
   - python –m pip install requests (or any other library you need)
   - python3 -m ensurepip
-- revisit classes
+> revisit classes
 - comprehension
 - other kinds of Python
 - functions: *args, **kwargs  
