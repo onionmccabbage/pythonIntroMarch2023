@@ -1,0 +1,31 @@
+Python Review Exercise 3
+========================
+
+We need to read in some 'todos' data (available as text in JSON format)
+Then separate the 'completed' tasks and write them to a log file along with a record of the date and time 
+
+Consider architecture, such as separating your code into packages and modules
+
+Details
+=======
+A collection of 'todos' data is provided as a text file (containing JSON)
+Use a file access object to open and read in all the JSON
+Import pythons 'json' library and use it to convert the raw JSON into a python structure
+  struct = json.load(<data>) 
+Iterate over the structure and for each completed task, write that task to a text file
+Also write the date and time into the text file
+Consider how you could write a custom generator to yield a nicely formatted date-time value 
+You could use your date-time generator to supply the date-time top be written into the text file
+Remember to wrap any file access code within try-except
+Also dont forget to close your file access objeect (or use 'with')
+
+Optional
+========
+Also write the incompleted tasks to a different text file (along with the date and time)
+Overwrite the original JSON data file so it only contains the incomplete todos (in JSON format)
+Compare writing the same data as a byte file and as a text file
+If you wish, you could use 'requests' to access 200 todos here:
+  https://jsonplaceholder.typicode.com/todos
+Then you could separate them into text files for each of the ten different userIDs
+
+Documentation for datetime is here: https://docs.python.org/3/library/datetime.html
