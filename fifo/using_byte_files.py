@@ -17,6 +17,13 @@ def writeBytes():
 
 def readBytes():
     '''we can read back byte data'''
+    try:
+        fin = open('bfile', 'rb') # 'rb' will read bytes
+        r = fin.read()
+        fin.close()
+        print(r) # print will try to render anything, even bytes
+    except Exception as err:
+        print(err)
 
 if __name__ == '__main__':
     writeBytes()
