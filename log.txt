@@ -1,0 +1,22 @@
+The value is 80
+initial text
+log written at 1680081550.0280435
+The value is 94
+initial text
+log written at 1680081556.394022
+The value is 72
+initial text
+log written at 1680081574.0972393
+The value is 12
+initial text
+log written at 1680081574.9611754
+The value is 53
+initial text
+log written at 1680081575.900285
+The value is 92
+initial text
+log written at 1680081576.7580965
+The value is 4
+initial text
+log written at 1680081577.675574
+The value is 77
