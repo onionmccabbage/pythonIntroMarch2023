@@ -9,7 +9,7 @@ Consider architecture, such as separating your code into packages and modules
 Details
 =======
 A collection of 'todos' data is provided as a text file (containing JSON)
-Use a file access object to open and read in all the JSON
+Use a file access object to open and read in all the JSON (careful with file locations)
 Import pythons 'json' library and use it to convert the raw JSON into a python structure
   struct = json.load(<data>) 
 Iterate over the structure and for each completed task, write that task to a text file
