@@ -17,7 +17,7 @@ Also write the date and time into the text file
 Consider how you could write a custom generator to yield a nicely formatted date-time value 
 You could use your date-time generator to supply the date-time top be written into the text file
 Remember to wrap any file access code within try-except
-Also dont forget to close your file access objeect (or use 'with')
+Also dont forget to close your file access object (or use 'with')
 
 Optional
 ========
@@ -29,3 +29,5 @@ If you wish, you could use 'requests' to access 200 todos here:
 Then you could separate them into text files for each of the ten different userIDs
 
 Documentation for datetime is here: https://docs.python.org/3/library/datetime.html
+Documentation for JSON is here:     https://docs.python.org/3/library/json.html
+
