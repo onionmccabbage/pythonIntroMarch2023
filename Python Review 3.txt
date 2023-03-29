@@ -14,6 +14,7 @@ Import pythons 'json' library and use it to convert the raw JSON into a python s
   struct = json.load(<data>) 
 Iterate over the structure and for each completed task, write that task to a text file
 Also write the date and time into the text file
+
 Consider how you could write a custom generator to yield a nicely formatted date-time value 
 You could use your date-time generator to supply the date-time top be written into the text file
 Remember to wrap any file access code within try-except
