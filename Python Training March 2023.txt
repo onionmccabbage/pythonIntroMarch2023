@@ -70,8 +70,8 @@ Wednesday
 > functions may live in classes, which live in modules which live in packages
 > https://docs.python.org/3/howto/pyporting.html
 > PEP8 style guide
-- global and local scope 
-- overview of testing
+> global and local scope 
+> overview of testing
 - string formatting syntax
 - how to format with certain dp
 - data modelling structures: use built in structures until they do not suit the purpose (then use classes)
@@ -79,13 +79,16 @@ Wednesday
 > get/set as property decorators @property
 > name mangling (__)
 > properties, methods, __str__
+> json and datetime libraries
 - intrinsic attributes: __doc__ etc.
-- documentation strings (docstring) for classes
+> documentation strings (docstring) for classes
 - special operators and overriding
 > inheritance
 - composition, static and class methods
+> the built-in JSON library
+> the built-in datetime library
 - review exercise
-- debug tools
+> debug tools
 - where to go from here:
   https://pynative.com/python-exercises-with-solutions/
   the next courses: advanced python then further advanced python
