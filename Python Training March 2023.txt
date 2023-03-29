@@ -61,15 +61,15 @@ Tuesday
 > share the links to 'course documentation'
 
 Wednesday
-- brief review so far
-- What are the mose useful libraries
+> brief review so far
+> What are the mose useful libraries
   - https://www.ubuntupit.com/best-python-libraries-and-packages-for-beginners/
   - https://docs.anaconda.com/anaconda/packages/py3.10_win-64/
-- File input and output: formal approach inc. logging
-- read and write binary files (bytes)
-- functions live in classes, which live in modules which live in packages
-- https://docs.python.org/3/howto/pyporting.html
-- PEP8 style guide
+> File input and output: formal approach inc. logging
+> read and write binary files (bytes)
+> functions may live in classes, which live in modules which live in packages
+> https://docs.python.org/3/howto/pyporting.html
+> PEP8 style guide
 - global and local scope 
 - overview of testing
 - string formatting syntax

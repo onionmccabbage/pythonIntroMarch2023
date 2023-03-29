@@ -1,7 +1,7 @@
 # generate city/country pairs
 
 def locationGen():
-    locations = [
+    locations = [ # NB these values DO all exist in memory
         ('Athlone','ie'),
         ('Galway','ie'),
         ('Hull','uk'),
