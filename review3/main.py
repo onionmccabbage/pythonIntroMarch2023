@@ -1,16 +1,18 @@
-import date_util
-import write_log
-import json
+from date_util import dateGen
+from write_log import writeCompleted
+from json_util import jsonToStruct
+from json_util import structToJson
 from read_todos import readTodos
 from find_completed import findCompleted
 
-def jsonToDict(j):
-    return json.loads(j)
+def main():
+    t_j = readTodos()
+    t_d = jsonToStruct(t_j)
+    du = dateGen()
+    dts = du.__next__()
+    t_completed = findCompleted(t_d)
+    t_completed_j = structToJson(t_completed)
+    writeCompleted(t_completed_j, dts)
 
 if __name__ == '__main__':
-    t_j = readTodos()
-    # print(t_j)
-    t_d = jsonToDict(t_j)
-    print(t_d)
-    t_completed = findCompleted(t_d)
-    print(t_completed)
+    main()
