@@ -15,8 +15,10 @@ class Address(object):
         self.street = street
         self.geo = geo
         Address.count += 1 # increase the count every time an Address is instantiated
-    def __str__(self):
+    def __str__(self): # this will be used by 'print'
         return f'Address Street is {self.street} latitude:{self.geo.lat:0.2f} longitude:{self.geo.lon:0.2f}'
+    def __repr__(self): # __repr__is how Python will represent output when running in immediate mode
+        return f'Representing the address: {self.street} latitude:{self.geo.lat:0.2f} longitude:{self.geo.lon:0.2f}'
     staticmethod
     def showMetaData():
         '''information about this class'''
